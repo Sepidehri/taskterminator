@@ -7,7 +7,7 @@ const axios = require('axios');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const cookieParser = require('cookie-parser');
-const db = require("./models");
+const db = require("../../models");
 const User = db.user;
 var session = require('express-session')
 app.use(session({
